@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.Register{
+    margin: 30px auto;
+    max-width: 700px;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9505b2;
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+.table{
+    width: 100%;
+}
+
+.table form{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+.table form label{
+    padding: 5px;
+}
+
+.table form input {
+    height: 20px;   
+}
+
+.table form label input{
+    max-width: 200px;
+    width: 100%;
+}
+
+.reg-button{
+    background-color: #9505b2;
+    margin-bottom: 5px;
+    width: 40%;
+    height: 30px;
+    
+}
+.reg-button:hover{
+    background: #a02eb7;
+    color: #fff;
+    width: 35%;
+    transition: .4s;
+    border-radius: 25px;
+    opacity: .7;
+    box-shadow: 3px 3px 3px 6px #da91e8;
+}
+
+.login-button{
+    background-color: #602eb7;
+    margin-bottom: 5px;
+    width: 35%;
+    height: 30px;
+}
+
+.login-button:hover{
+    background: #602eb7;
+    color: #fff;
+    width: 30%;
+    transition: .4s;
+    border-radius: 25px;
+    opacity: .7;
+    box-shadow: 3px 3px 3px 6px #7d4dd0;
+}
+
+.Error {
+    border-color: red;
+}
+
+.display-skip{
+    display: none;
+}
+
+.user-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.user_div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed #602eb7;
+}
+
+.user_div p {
+    text-align: center;
+    border-bottom: 1px solid #602eb7;
+}
